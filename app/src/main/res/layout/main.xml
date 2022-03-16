@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="#FFFFFF"
+	android:id="@+id/mainLinearLayout1">
+
+	<ImageView
+		android:src="@drawable/image_1"
+		android:layout_width="100dp"
+		android:layout_height="100dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="خوش آمدید !!"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_marginTop="40dp"
+		android:textColor="#000000"
+		android:id="@+id/mainTextView1"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="300dp"
+		android:layout_height="100dp"
+		android:layout_marginTop="15dp">
+
+		<EditText
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:hint="شماره تلفن"
+			android:textColor="#000000"
+			android:textColorHint="#E1D4D3"
+			android:background="@drawable/edit_login"
+			android:id="@+id/mainEditText1"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:hint="رمز عبور"
+			android:textColor="#000000"
+			android:textColorHint="#CFCFCF"
+			android:background="@drawable/edit_login"
+			android:layout_marginTop="10dp"
+			android:id="@+id/mainEditText2"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:text="رمز عبور خود را فراموش کرده اید؟"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#000000"
+		android:id="@+id/mainTextView2"/>
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="50dp"
+		android:text="ورود"
+		android:layout_marginTop="10dp"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+		android:textSize="25sp"
+		android:background="@drawable/login_button"
+		android:id="@+id/mainButton1"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="300dp"
+		android:layout_height="50dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="ثبت نام"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#3DFF01"
+			android:layout_marginRight="10dp"
+			android:id="@+id/mainTextView4"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="حساب کاربری ندارید؟"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#000000"
+			android:id="@+id/mainTextView3"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
