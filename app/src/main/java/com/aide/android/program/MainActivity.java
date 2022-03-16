@@ -14,6 +14,10 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 		
+		// written by Mohammad Shabani
+		// abcdmohammad776@gmail.com
+		// Telegram Channel: @aide_android
+		
 		Typeface face = Typeface.createFromAsset(getAssets(), "Vazir.ttf");
 		
 		TextView tv1 = (TextView) findViewById(R.id.mainTextView1);
